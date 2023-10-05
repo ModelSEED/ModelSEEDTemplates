@@ -7,7 +7,8 @@ Reactions in KEGG and MetaCyc have generic versions without electron donors and 
 - Templates used to build models in "ModelSEED v2: High-throughput genome-scale metabolic model reconstruction with enhanced energy biosynthesis pathway prediction" pre-print. 
 - Introduction of Archaea template.
 - Updated core metabolism model template.
-- Updated gram-negative template
+- Updated gram-negative template.
+- Updated gram-positive template.
 - Biomass objective function updated to represent DNA, RNA, and Protein compounds instead of individual metabolites. Corresponding DNA, RNA, and Protein synthesis reactions are added to the templates.
 - Reaction drains are now represented in the template.
 
