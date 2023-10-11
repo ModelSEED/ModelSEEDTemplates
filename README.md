@@ -4,7 +4,7 @@ Reactions in KEGG and MetaCyc have generic versions without electron donors and 
 
 ## September 2023 Release
 ### Release highlights
-- Templates used to build models in "ModelSEED v2: High-throughput genome-scale metabolic model reconstruction with enhanced energy biosynthesis pathway prediction" pre-print. 
+- Templates used to build models in "ModelSEED v2: High-throughput genome-scale metabolic model reconstruction with enhanced energy biosynthesis pathway prediction" pre-print. https://www.biorxiv.org/content/10.1101/2023.10.04.556561v1.abstract
 - Introduction of Archaea template.
 - Updated core metabolism model template.
 - Updated gram-negative template.
