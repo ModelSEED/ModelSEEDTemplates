@@ -12,7 +12,7 @@ This repository is now organized by version to facilitate release management and
 - **`ChangeLogs/`** - Version-specific change logs
 - **`WS_Specification/`** - KBase workspace specifications
 
-## June 2024 Release (v6.0)
+## June 2025 Release (v6.0)
 ### Release highlights
 - Templates coinciding with ModelSEED v2 manuscript submission for publication
 - Updated Archaea template (V6)

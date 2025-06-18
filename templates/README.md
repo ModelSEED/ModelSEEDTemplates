@@ -5,7 +5,7 @@ This directory contains ModelSEED templates organized by version for better rele
 ## Directory Structure
 
 ### Current Release
-- **`v6.0/`** - Latest templates (June 2024)
+- **`v6.0/`** - Latest templates (June 2025)
   - ArchaeaTemplateV6.json - Archaea organisms
   - Core-V5.2.json - Enhanced core metabolism for bacteria  
   - GramNegModelTemplateV6.json - Gram-negative bacteria
@@ -39,7 +39,7 @@ Legacy templates in `legacy/` directory provide access to older template version
 
 ## Release Information
 
-### v6.0 (June 2024)
+### v6.0 (June 2025)
 - Coincides with ModelSEED v2 manuscript submission for publication
 - Enhanced templates with improved metabolic coverage
 - Better organism-specific representations
