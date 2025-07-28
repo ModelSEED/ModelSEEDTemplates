@@ -44,3 +44,15 @@ These ontology-enhanced templates can be used in the same way as standard ModelS
 ## Version Information
 
 These ontology files correspond to the ModelSEED v2 release and are compatible with the v6.0 templates.
+
+## File Generation Process
+
+The OWL ontology files in this repository were generated using PyOBO scripts available at:
+https://github.com/kbase/cdm-data-loader-utils/tree/biochem/biochemistry_loader_scripts/obo
+
+The JSON files were created by converting the OWL files using ROBOT with the following command:
+```bash
+robot convert --input <file>.owl --output <file>.json
+```
+
+Note: The large modelseed.json file has been compressed using gzip to comply with GitHub file size limits.
