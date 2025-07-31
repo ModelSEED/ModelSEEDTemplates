@@ -1,0 +1,13 @@
+{
+  "files_generated": [
+    "/Users/jplfaria/repos/ModelSEEDTemplates/templates/ontology/pyobo_builder/intermediate/template_data.json",
+    "/Users/jplfaria/repos/ModelSEEDTemplates/templates/ontology/pyobo_builder/intermediate/modelseed_data.json",
+    "/Users/jplfaria/repos/ModelSEEDTemplates/templates/ontology/pyobo_builder/intermediate/seed_roles_data.json"
+  ],
+  "data_summary": {
+    "template_complexes": 3296,
+    "modelseed_compounds": 45706,
+    "modelseed_reactions": 56009,
+    "seed_roles": 46232
+  }
+}

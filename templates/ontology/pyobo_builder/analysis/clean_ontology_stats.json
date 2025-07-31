@@ -1,0 +1,24 @@
+{
+  "entity_counts": {
+    "mapped_roles": 9981,
+    "mapped_reactions": 8576,
+    "mapped_complexes": 3296,
+    "total_mapped_entities": 21853
+  },
+  "relationship_counts": {
+    "valid_complex_role_relationships": 3744,
+    "valid_reaction_complex_relationships": 4545,
+    "total_valid_relationships": 8289
+  },
+  "source_distribution": {
+    "mapped_role_sources": {
+      "ModelSEED": 9981
+    }
+  },
+  "data_quality_metrics": {
+    "role_mapping_rate": 0.48574070469145414,
+    "reaction_mapping_rate": 0.9990680335507922,
+    "complex_mapping_rate": 1.0,
+    "overall_mapping_rate": 0.6738929320340447
+  }
+}

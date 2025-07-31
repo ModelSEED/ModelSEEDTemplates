@@ -1,0 +1,36 @@
+{
+  "data_sources": {
+    "template": {
+      "complexes": 3296,
+      "reactions": 8584,
+      "roles": 20548,
+      "complex_role_relationships": 5191
+    },
+    "modelseed": {
+      "compounds": 45706,
+      "reactions": 56009,
+      "compound_xrefs": {
+        "chebi": 9843,
+        "kegg": 18155,
+        "metacyc": 26828
+      }
+    },
+    "seed_roles": {
+      "roles": 46232,
+      "roles_with_reactions": 2886,
+      "role_reaction_mappings": 2886
+    }
+  },
+  "integration_metrics": {
+    "reaction_coverage_percent": 0.0,
+    "roles_with_reactions_percent": 6.242429486070254,
+    "sample_role_matches": 52
+  },
+  "expected_ontology_terms": {
+    "roles": 46232,
+    "compounds": 45706,
+    "reactions": 56009,
+    "complexes": 3296,
+    "total": 151243
+  }
+}

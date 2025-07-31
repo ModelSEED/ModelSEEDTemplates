@@ -1,0 +1,74 @@
+{
+  "ontology_info": {
+    "name": "SEED Unified Ontology",
+    "version": "2025-01-30",
+    "description": "Unified ontology combining SEED roles, ModelSEED compounds/reactions, and template complexes",
+    "base_uri": "http://purl.obolibrary.org/obo/seed_unified/",
+    "generated_date": "2025-07-30T20:26:21.509833"
+  },
+  "statistics": {
+    "total_roles": 46232,
+    "total_compounds": 45706,
+    "total_reactions": 56009,
+    "total_complexes": 3296,
+    "complex_role_relationships": 5191
+  },
+  "sample_terms": {
+    "roles": [
+      {
+        "id": "role_0000000000001",
+        "name": "(+)-caryolan-1-ol synthase (EC 4.2.1.138)",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/role_0000000000001"
+      },
+      {
+        "id": "role_0000000000002",
+        "name": "(2E,6E)-farnesyl diphosphate synthase (EC 2.5.1.10)",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/role_0000000000002"
+      },
+      {
+        "id": "role_0000000000003",
+        "name": "(2E,6Z)-farnesyl diphosphate synthase (EC 2.5.1.68)",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/role_0000000000003"
+      },
+      {
+        "id": "role_0000000000004",
+        "name": "(2R)-sulfolactate sulfo-lyase subunit alpha (EC 4.4.1.24)",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/role_0000000000004"
+      },
+      {
+        "id": "role_0000000000005",
+        "name": "(2R)-sulfolactate sulfo-lyase subunit beta (EC 4.4.1.24)",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/role_0000000000005"
+      }
+    ],
+    "compounds": [
+      {
+        "id": "compound_cpd00001",
+        "name": "H2O",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/compound_cpd00001"
+      },
+      {
+        "id": "compound_cpd00002",
+        "name": "ATP",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/compound_cpd00002"
+      },
+      {
+        "id": "compound_cpd00003",
+        "name": "NAD",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/compound_cpd00003"
+      },
+      {
+        "id": "compound_cpd00004",
+        "name": "NADH",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/compound_cpd00004"
+      },
+      {
+        "id": "compound_cpd00005",
+        "name": "NADPH",
+        "uri": "http://purl.obolibrary.org/obo/seed_unified/compound_cpd00005"
+      }
+    ],
+    "reactions": [],
+    "complexes": []
+  }
+}

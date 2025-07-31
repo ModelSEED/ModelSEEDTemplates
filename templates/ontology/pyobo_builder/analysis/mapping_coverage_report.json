@@ -1,0 +1,440 @@
+{
+  "report_metadata": {
+    "generated_timestamp": 1753933460.9763525,
+    "analysis_source": "/Users/jplfaria/repos/ModelSEEDTemplates/templates/ontology/pyobo_builder/analysis_output",
+    "clean_ontology_source": "/Users/jplfaria/repos/ModelSEEDTemplates/templates/ontology/pyobo_builder/clean_ontology",
+    "report_version": "1.0"
+  },
+  "executive_summary": {
+    "key_findings": {
+      "critical_role_mapping_issue": {
+        "description": "Only 48.6% of roles are mapped to SEED IDs",
+        "impact": "This severely limits ontology utility for functional genomics",
+        "affected_entities": 10567,
+        "primary_cause": "Only ModelSEED source roles have mappings"
+      },
+      "excellent_reaction_coverage": {
+        "description": "99.9% of reactions are properly mapped",
+        "impact": "Metabolic pathway analysis will be highly accurate",
+        "mapped_entities": 8576
+      },
+      "perfect_complex_coverage": {
+        "description": "100% of complexes are properly mapped",
+        "impact": "Protein complex analysis will be comprehensive",
+        "mapped_entities": 3296
+      },
+      "source_filtering_discovered": {
+        "description": "Only ModelSEED source entities are mapped",
+        "excluded_sources": [
+          "KEGG",
+          "PlantSEED",
+          "SEED",
+          ""
+        ],
+        "excluded_role_count": 10567
+      }
+    },
+    "ontology_quality_metrics": {
+      "overall_mapping_rate": 0.6738929320340447,
+      "entity_mapping_rates": {
+        "roles": 0.48574070469145414,
+        "reactions": 0.9990680335507922,
+        "complexes": 1.0
+      },
+      "relationship_integrity_rate": 0.7212483143902909
+    },
+    "clean_ontology_projection": {
+      "total_entities": 21853,
+      "total_relationships": 8289,
+      "data_quality_guaranteed": true,
+      "broken_references": 0
+    },
+    "recommendations": {
+      "immediate": [
+        "Use clean ontology (21,853 entities) for production systems",
+        "Separate unmapped data (10,575 entities) for analysis",
+        "Focus mapping efforts on KEGG and PlantSEED roles"
+      ],
+      "strategic": [
+        "Develop KEGG\u2192SEED role mapping pipeline",
+        "Create PlantSEED\u2192SEED role mapping system",
+        "Establish quality control for future template updates"
+      ]
+    }
+  },
+  "source_analysis": {
+    "source_mapping_breakdown": {
+      "ModelSEED": {
+        "total_roles": 16138,
+        "mapped_roles": 9981,
+        "unmapped_roles": 6157,
+        "mapping_rate": 0.618478126161854,
+        "mapping_percentage": "61.8%"
+      },
+      "KEGG": {
+        "total_roles": 4153,
+        "mapped_roles": 0,
+        "unmapped_roles": 4153,
+        "mapping_rate": 0.0,
+        "mapping_percentage": "0.0%"
+      },
+      "PlantSEED": {
+        "total_roles": 234,
+        "mapped_roles": 0,
+        "unmapped_roles": 234,
+        "mapping_rate": 0.0,
+        "mapping_percentage": "0.0%"
+      },
+      "SEED": {
+        "total_roles": 21,
+        "mapped_roles": 0,
+        "unmapped_roles": 21,
+        "mapping_rate": 0.0,
+        "mapping_percentage": "0.0%"
+      },
+      "": {
+        "total_roles": 2,
+        "mapped_roles": 0,
+        "unmapped_roles": 2,
+        "mapping_rate": 0.0,
+        "mapping_percentage": "0.0%"
+      }
+    },
+    "mapping_success_by_source": {
+      "ModelSEED": {
+        "status": "successful",
+        "rate": 0.618478126161854,
+        "mapped_count": 9981
+      }
+    },
+    "unmapped_source_analysis": {
+      "KEGG": {
+        "status": "completely_unmapped",
+        "unmapped_count": 4153,
+        "potential_impact": "HIGH - KEGG is a major biological database with critical pathway information"
+      },
+      "PlantSEED": {
+        "status": "completely_unmapped",
+        "unmapped_count": 234,
+        "potential_impact": "MEDIUM - PlantSEED contains plant-specific functional annotations"
+      },
+      "SEED": {
+        "status": "completely_unmapped",
+        "unmapped_count": 21,
+        "potential_impact": "MEDIUM - Core SEED annotations provide foundational biological knowledge"
+      },
+      "": {
+        "status": "completely_unmapped",
+        "unmapped_count": 2,
+        "potential_impact": "LOW - Limited biological impact"
+      }
+    },
+    "source_prioritization": [
+      {
+        "source": "KEGG",
+        "unmapped_count": 4153,
+        "priority": 12459
+      },
+      {
+        "source": "PlantSEED",
+        "unmapped_count": 234,
+        "priority": 468
+      },
+      {
+        "source": "SEED",
+        "unmapped_count": 21,
+        "priority": 42
+      },
+      {
+        "source": "",
+        "unmapped_count": 2,
+        "priority": 2
+      }
+    ]
+  },
+  "entity_coverage": {
+    "roles": {
+      "total": 20548,
+      "mapped": 9981,
+      "unmapped": 10567,
+      "mapping_rate": 0.48574070469145414,
+      "status": "CRITICAL - Low mapping rate",
+      "unmapped_examples": [
+        {
+          "id": "ftr09784",
+          "name": "LysR family transcriptional regulator YcjZ",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr09786",
+          "name": "LysR family transcriptional regulator YfeR",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr09787",
+          "name": "LysR family transcriptional regulator YfiE",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr06365",
+          "name": "Adenylate cyclase, type IV (EC 4.6.1.1)",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr14295",
+          "name": "T4-like phage protein, T4 GC1149",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr30472",
+          "name": "nicotinate dehydrogenase (EC 1.17.1.5)",
+          "source": "KEGG",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr06363",
+          "name": "putative NOL1-NOP2-sun family nucleolar protein",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr14878",
+          "name": "NarL/NarP binding site 3 at hyb operon",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr14879",
+          "name": "NarL/NarP binding site 1 at hya operon",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        },
+        {
+          "id": "ftr14870",
+          "name": "ModE protected fragment upstream of narXL",
+          "source": "ModelSEED",
+          "seed_id": "missing"
+        }
+      ],
+      "recommendations": [
+        "Immediate priority for mapping improvement",
+        "Focus on KEGG roles (4,153 unmapped)",
+        "Develop automated KEGG\u2192SEED mapping pipeline"
+      ]
+    },
+    "reactions": {
+      "total": 8584,
+      "mapped": 8576,
+      "unmapped": 8,
+      "mapping_rate": 0.9990680335507922,
+      "status": "EXCELLENT - Near perfect mapping",
+      "unmapped_examples": [
+        {
+          "id": "sul00002_c",
+          "name": "sul00002_c",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 2
+        },
+        {
+          "id": "sul00003_c",
+          "name": "sul00003_c",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 1
+        },
+        {
+          "id": "sul00004_c",
+          "name": "sul00004_c",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 1
+        },
+        {
+          "id": "sul00008_c",
+          "name": "sul00008_c",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 1
+        },
+        {
+          "id": "sul00010_c",
+          "name": "sul00010_c",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 1
+        },
+        {
+          "id": "rxnIronOx1_c",
+          "name": "FeOx",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 1
+        },
+        {
+          "id": "rxnIronOx2_c",
+          "name": "Mobile Electron Carrier",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 1
+        },
+        {
+          "id": "rxnCYTCBB3_c",
+          "name": "Cytc bb3",
+          "seed_id": "missing",
+          "has_complexes": true,
+          "complex_count": 1
+        }
+      ],
+      "recommendations": [
+        "Investigate the 8 unmapped reactions",
+        "Maintain current mapping quality"
+      ]
+    },
+    "complexes": {
+      "total": 3296,
+      "mapped": 3296,
+      "unmapped": 0,
+      "mapping_rate": 1.0,
+      "status": "PERFECT - Complete mapping",
+      "unmapped_examples": [],
+      "recommendations": [
+        "Maintain current mapping quality",
+        "Use as template for other entity types"
+      ]
+    }
+  },
+  "relationship_quality": {
+    "complex_role_relationships": {
+      "total_relationships": 5191,
+      "both_mapped": 3744,
+      "integrity_rate": 0.7212483143902909,
+      "broken_relationships": 1447,
+      "primary_issue": "Unmapped roles breaking complex relationships",
+      "examples": [
+        {
+          "complex_id": "cpx01799",
+          "role_id": "ftr02413",
+          "issue": "role_unmapped"
+        },
+        {
+          "complex_id": "cpx01799",
+          "role_id": "ftr01616",
+          "issue": "role_unmapped"
+        },
+        {
+          "complex_id": "cpx01792",
+          "role_id": "ftr01233",
+          "issue": "role_unmapped"
+        },
+        {
+          "complex_id": "cpx01792",
+          "role_id": "ftr02239",
+          "issue": "role_unmapped"
+        },
+        {
+          "complex_id": "cpx01791",
+          "role_id": "ftr09452",
+          "issue": "role_unmapped"
+        }
+      ]
+    },
+    "reaction_complex_relationships": {
+      "total_relationships": 4554,
+      "both_mapped": 4545,
+      "integrity_rate": 0.9980237154150198,
+      "broken_relationships": 9,
+      "primary_issue": "Minimal issues due to high mapping rates",
+      "examples": [
+        {
+          "reaction_id": "sul00002_c",
+          "complex_id": "cpx01225",
+          "issue": "reaction_unmapped"
+        },
+        {
+          "reaction_id": "sul00002_c",
+          "complex_id": "tcpx00523",
+          "issue": "reaction_unmapped"
+        },
+        {
+          "reaction_id": "sul00003_c",
+          "complex_id": "tcpx00513",
+          "issue": "reaction_unmapped"
+        },
+        {
+          "reaction_id": "sul00004_c",
+          "complex_id": "tcpx00524",
+          "issue": "reaction_unmapped"
+        },
+        {
+          "reaction_id": "sul00008_c",
+          "complex_id": "tcpx01178",
+          "issue": "reaction_unmapped"
+        }
+      ]
+    },
+    "clean_ontology_impact": {
+      "valid_complex_role_relationships": 3744,
+      "valid_reaction_complex_relationships": 4545,
+      "total_valid_relationships": 8289,
+      "relationship_retention_rate": 0.850590046177527
+    }
+  },
+  "actionable_insights": {
+    "immediate_actions": {
+      "deploy_clean_ontology": {
+        "description": "Deploy clean ontology for production use",
+        "entities": 21853,
+        "relationships": 8289,
+        "confidence": "HIGH - All entities have valid SEED IDs"
+      },
+      "preserve_unmapped_data": {
+        "description": "Preserve unmapped entities for future mapping",
+        "unmapped_roles": 10567,
+        "unmapped_reactions": 8,
+        "priority": "HIGH - Don't lose biological information"
+      }
+    },
+    "mapping_improvement_strategy": {
+      "kegg_role_mapping": {
+        "unmapped_count": 4153,
+        "priority": "CRITICAL",
+        "approach": "Develop KEGG\u2192SEED role mapping using EC numbers and gene names",
+        "expected_improvement": "+4153 roles"
+      },
+      "plantseed_role_mapping": {
+        "unmapped_count": 234,
+        "priority": "MEDIUM",
+        "approach": "Map PlantSEED roles to existing SEED functional annotations",
+        "expected_improvement": "+234 roles"
+      },
+      "seed_role_mapping": {
+        "unmapped_count": 21,
+        "priority": "MEDIUM",
+        "approach": "Investigate why core SEED roles lack mappings",
+        "expected_improvement": "+21 roles"
+      }
+    },
+    "quality_control_measures": {
+      "mapping_validation": "Implement automated validation of SEED ID mappings",
+      "source_consistency": "Ensure consistent mapping approach across all sources",
+      "relationship_integrity": "Monitor relationship validity as mappings are added",
+      "version_control": "Track mapping coverage changes across template versions"
+    },
+    "success_metrics": {
+      "target_role_mapping_rate": 0.9,
+      "current_role_mapping_rate": 0.48574070469145414,
+      "improvement_needed": 8512.2,
+      "focus_areas": [
+        "KEGG roles",
+        "PlantSEED roles",
+        "Core SEED roles"
+      ]
+    }
+  }
+}
