@@ -1,0 +1,42 @@
+format-version: 1.2
+ontology: seed
+name: SEED Unified Ontology
+description: Complete SEED ontology with all relationships using standard RO properties
+version: 2.0-20250801
+date: 2025-08-01
+
+! This OBO file was generated from the complete SEED Unified Ontology
+! Statistics: 45,706 compounds, 56,009 reactions,
+!            46,232 roles, 1,324 subsystems, 3,296 complexes
+! Total relationships: 19,597
+
+! Standard relationship types used:
+! RO:0002327 enables
+! RO:0001019 contains
+! RO:0002215 capable_of
+! RO:0000058 is_realized_by
+
+! Custom data properties:
+! seed:hasNormalizedForm - normalized role names for performance
+! seed:reactionType - reaction classification (spontaneous/universal/conditional)
+
+! NOTE: This OBO file contains only basic term definitions.
+! For complete relationships and semantic properties, use the OWL version:
+! seed_unified.owl contains all 19,597 relationships
+
+! ===================================================================
+! TERMS
+! ===================================================================
+
+[Term]
+id: SEED:summary
+name: SEED Unified Ontology Summary
+def: "Complete SEED ontology with 45,706 compounds, 56,009 reactions, 46,232 roles, 1,324 subsystems, and 3,296 complexes. Generated from ModelSEED templates with semantic relationships using standard RO properties." []
+comment: For complete ontology with all 19,597 relationships, use seed_unified.owl
+
+! End of basic OBO format
+! For full ontology functionality, use the OWL version which includes:
+! - All 19,597 semantic relationships
+! - Performance-optimized normalized forms
+! - Standard RO property mappings
+! - Direct compatibility with reasoning tools

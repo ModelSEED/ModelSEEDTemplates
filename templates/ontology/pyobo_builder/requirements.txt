@@ -1,20 +1,4 @@
-# Requirements for SEED unified ontology builder
-# Core PyOBO and ontology dependencies
 pyobo>=0.10.0
-bioontologies>=0.5.0
-pystow>=0.5.0
-
-# Data processing
-pandas>=1.5.0
 click>=8.0.0
-
-# OWL/RDF support  
-rdflib>=6.0.0
-owlready2>=0.40
-
-# Utilities
 tqdm>=4.60.0
-requests>=2.25.0
-
-# Optional: For advanced validation
-robot-python>=0.1.0
+pystow>=0.5.0
