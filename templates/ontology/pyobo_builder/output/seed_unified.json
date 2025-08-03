@@ -1,9 +1,9 @@
 {
   "metadata": {
     "name": "SEED Unified Ontology",
-    "version": "2.0-20250801",
+    "version": "2.0-20250802",
     "description": "Complete SEED ontology with all relationships using standard RO properties",
-    "generated": "2025-08-01T15:52:01.973387"
+    "generated": "2025-08-02T14:15:16.484142"
   },
   "statistics": {
     "compounds": 45706,
