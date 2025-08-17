@@ -150,24 +150,16 @@ def main():
         # Extract term associations
         df_terms = extract_term_associations()
         
-        # Save parquet files
-        print(f"\n💾 Saving parquet files...")
+        # Save parquet files directly to examples folder
+        print(f"\n💾 Saving parquet files to examples folder...")
         
-        statements_path = "ontology/statements.parquet"
+        statements_path = "examples/statements.parquet"
         df_statements.to_parquet(statements_path, index=False)
         print(f"   ✅ {statements_path} ({len(df_statements):,} statements)")
         
-        terms_path = "ontology/term_associations.parquet"
+        terms_path = "examples/term_associations.parquet"
         df_terms.to_parquet(terms_path, index=False)
         print(f"   ✅ {terms_path} ({len(df_terms):,} associations)")
-        
-        # Copy to examples folder for notebook use
-        print(f"\n📋 Copying to examples folder...")
-        import shutil
-        shutil.copy(statements_path, "examples/statements.parquet")
-        shutil.copy(terms_path, "examples/term_associations.parquet")
-        print(f"   ✅ examples/statements.parquet")
-        print(f"   ✅ examples/term_associations.parquet")
         
         print(f"\n🎉 Extraction complete!")
         print(f"   Post-processed to simplified predicates:")

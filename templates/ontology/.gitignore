@@ -47,3 +47,6 @@ seed_prefixes.csv
 
 # Jupyter notebook checkpoints
 **/.ipynb_checkpoints/
+
+# Parquet files in ontology/ (keep only in examples/)
+ontology/*.parquet
