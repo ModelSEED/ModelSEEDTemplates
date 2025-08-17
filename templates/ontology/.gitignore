@@ -1,0 +1,49 @@
+# Python
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Large uncompressed files (keep only compressed versions in repo)
+data/seed.owl
+data/modelseed.owl
+ontology/seed_unified.owl
+ontology/seed_unified.db
+
+# Temporary and working files
+*.tmp
+*.bak
+*.backup
+*.log
+*.zip
+
+# Local test files
+test_*
+tmp_*
+temp_*
+
+# Archive folders (old versions)
+archive*/
+backup*/
+old*/
+
+# Backup files
+backup_before_rebuild.zip
+seed_prefixes.csv
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
