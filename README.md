@@ -6,11 +6,16 @@ Reactions in KEGG and MetaCyc have generic versions without electron donors and 
 
 This repository is now organized by version to facilitate release management and backward compatibility:
 
-- **`templates/v6.0/`** - Latest templates (current release)
+- **`templates/v7.0/`** - Latest templates (current release)
+- **`templates/v6.0/`** - Previous stable release
 - **`templates/v5.0/`** - Previous stable release  
 - **`templates/legacy/`** - Archived legacy templates
 - **`ChangeLogs/`** - Version-specific change logs
 - **`WS_Specification/`** - KBase workspace specifications
+
+## December 2025 Release (v7.0)
+### Release highlights
+- Extracelullar Iron Oxide Respiratory System
 
 ## June 2025 Release (v6.0)
 ### Release highlights

@@ -5,6 +5,12 @@ This directory contains ModelSEED templates organized by version for better rele
 ## Directory Structure
 
 ### Current Release
+- **`v7.0/`** - Latest templates (December 2025)
+  - Core-V6.json - Enhanced core metabolism for bacteria  
+  - GramNegModelTemplateV7.json - Gram-negative bacteria
+  - GramPosModelTemplateV7.json - Gram-positive bacteria
+
+### Current Release
 - **`v6.0/`** - Latest templates (June 2025)
   - ArchaeaTemplateV6.json - Archaea organisms
   - Core-V5.2.json - Enhanced core metabolism for bacteria  
@@ -28,7 +34,8 @@ This directory contains ModelSEED templates organized by version for better rele
 ## Usage
 
 ### For New Projects
-Use templates from `v6.0/` directory for the latest features and improvements.
+Use templates from `v7.0/` directory for the latest features and improvements.
+Use templates from `v6.0/` directory for Archaea.
 
 ### For Existing Projects
 - Continue using `v5.0/` templates for consistency with existing workflows
@@ -38,6 +45,9 @@ Use templates from `v6.0/` directory for the latest features and improvements.
 Legacy templates in `legacy/` directory provide access to older template versions.
 
 ## Release Information
+
+### v6.0 (December 2025)
+- Added Extracelullar Iron Oxide Respiratory System for Core/Gram-negative/Gram-positive templates
 
 ### v6.0 (June 2025)
 - Coincides with ModelSEED v2 manuscript submission for publication
