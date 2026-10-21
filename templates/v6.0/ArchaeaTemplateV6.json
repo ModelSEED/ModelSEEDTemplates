@@ -510418,43 +510418,6 @@
         {
             "GapfillDirection": "=",
             "base_cost": 3.85,
-            "direction": "=",
-            "forward_penalty": 1000,
-            "id": "rxn39860_c",
-            "lower_bound": -1000,
-            "maxforflux": 1000,
-            "maxrevflux": 1000.0,
-            "name": "S-adenosyl-L-methionine:cobalt-precorrin-7 C5-methyltransferase",
-            "reaction_ref": "kbase/default/reactions/id/rxn39860",
-            "reverse_penalty": 1000,
-            "templateReactionReagents": [
-                {
-                    "coefficient": -1,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd00017_c"
-                },
-                {
-                    "coefficient": -1,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd14961_c"
-                },
-                {
-                    "coefficient": 1,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd00019_c"
-                },
-                {
-                    "coefficient": 1,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd08375_c"
-                }
-            ],
-            "templatecompartment_ref": "~/compartments/id/c",
-            "templatecomplex_refs": [
-                "~/complexes/id/tcpx00823"
-            ],
-            "type": "conditional",
-            "upper_bound": 1000
-        },
-        {
-            "GapfillDirection": "=",
-            "base_cost": 3.85,
             "direction": ">",
             "forward_penalty": 1000,
             "id": "rxn16218_c",
