@@ -202875,6 +202875,14 @@
                 {
                     "coefficient": 1,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01449_c"
+                },
+                {
+                    "coefficient": -2,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
+                },
+                {
+                    "coefficient": 2,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
             "templatecompartment_ref": "~/compartments/id/c",
@@ -204177,7 +204185,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00752_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -204185,7 +204193,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd02598_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -212009,7 +212017,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00102_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -212021,7 +212029,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00169_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -237984,7 +237992,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00435_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -238000,7 +238008,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01034_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -251600,7 +251608,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -251612,7 +251620,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00020_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -260526,7 +260534,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01099_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -260542,7 +260550,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03226_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -268790,7 +268798,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00325_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -268802,7 +268810,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03272_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -279849,7 +279857,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00094_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -279865,7 +279873,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00086_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -285862,7 +285870,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00023_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -285878,7 +285886,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -317815,7 +317823,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00866_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -317827,7 +317835,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03271_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -333690,7 +333698,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00125_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -333698,7 +333706,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00345_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -359228,7 +359236,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00389_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -359236,7 +359244,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd08441_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -359571,7 +359579,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00204_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -359583,7 +359591,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -364467,7 +364475,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03509_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -364479,7 +364487,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00389_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -389064,7 +389072,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03267_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -389076,7 +389084,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03269_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -393668,7 +393676,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00239_c"
                 },
                 {
-                    "coefficient": -3,
+                    "coefficient": -6,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -393680,7 +393688,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00081_c"
                 },
                 {
-                    "coefficient": 3,
+                    "coefficient": 6,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -397142,7 +397150,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01090_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -397158,7 +397166,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03956_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -398945,7 +398953,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00047_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -398957,7 +398965,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -402657,7 +402665,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd08441_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -402665,7 +402673,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03508_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -424300,7 +424308,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03268_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -424312,7 +424320,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00546_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -443590,7 +443598,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00078_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -443602,7 +443610,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00024_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -450156,7 +450164,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00278_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -450168,7 +450176,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11175_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -453433,7 +453441,7 @@
             "reverse_penalty": 0,
             "templateReactionReagents": [
                 {
-                    "coefficient": -2,
+                    "coefficient": -1,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
@@ -453443,6 +453451,14 @@
                 {
                     "coefficient": 1,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01845_c"
+                },
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00005_c"
+                },
+                {
+                    "coefficient": 1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00006_c"
                 }
             ],
             "templatecompartment_ref": "~/compartments/id/c",
@@ -479888,7 +479904,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -479896,7 +479912,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00004_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -484689,7 +484705,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -484697,7 +484713,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00005_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -502949,7 +502965,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd02047_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -502961,7 +502977,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01450_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -506823,11 +506839,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_e"
                 },
                 {
-                    "coefficient": -4,
+                    "coefficient": -8,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00109_c"
                 },
                 {
-                    "coefficient": 4,
+                    "coefficient": 8,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00110_c"
                 }
             ],
@@ -506873,11 +506889,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00239_c"
                 },
                 {
-                    "coefficient": 3,
+                    "coefficient": 6,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00109_c"
                 },
                 {
-                    "coefficient": -3,
+                    "coefficient": -6,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00110_c"
                 }
             ],
@@ -507104,7 +507120,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01449_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -507120,7 +507136,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01845_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
@@ -507149,7 +507165,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -507157,7 +507173,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd19424_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -507186,7 +507202,7 @@
             "reverse_penalty": 1000,
             "templateReactionReagents": [
                 {
-                    "coefficient": -2,
+                    "coefficient": -3,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
@@ -507194,11 +507210,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01449_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -507401,11 +507417,11 @@
             "reverse_penalty": 1000,
             "templateReactionReagents": [
                 {
-                    "coefficient": -6,
+                    "coefficient": -4,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -507417,7 +507433,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00081_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -507586,7 +507602,7 @@
             "reverse_penalty": 1000,
             "templateReactionReagents": [
                 {
-                    "coefficient": -3,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_e"
                 },
                 {
@@ -507602,11 +507618,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00075_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00109_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00110_c"
                 }
             ],
@@ -509621,11 +509637,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd15500_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00109_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00110_c"
                 }
             ],
@@ -509797,11 +509813,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_e"
                 },
                 {
-                    "coefficient": 3,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00109_c"
                 },
                 {
-                    "coefficient": -3,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00110_c"
                 }
             ],
@@ -517213,11 +517229,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd01414_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00109_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 2,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00110_c"
                 }
             ],
@@ -517258,11 +517274,11 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00067_e"
                 },
                 {
-                    "coefficient": -7,
+                    "coefficient": -14,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00109_c"
                 },
                 {
-                    "coefficient": 7,
+                    "coefficient": 14,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00110_c"
                 }
             ],
@@ -517973,7 +517989,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00389_c"
                 },
                 {
-                    "coefficient": -1,
+                    "coefficient": -4,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 },
                 {
@@ -517981,7 +517997,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03427_c"
                 },
                 {
-                    "coefficient": 1,
+                    "coefficient": 4,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 }
             ],
@@ -518010,7 +518026,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd03508_c"
                 },
                 {
-                    "coefficient": -2,
+                    "coefficient": -4,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11621_c"
                 },
                 {
@@ -518022,7 +518038,7 @@
                     "templatecompcompound_ref": "~/compcompounds/id/cpd00389_c"
                 },
                 {
-                    "coefficient": 2,
+                    "coefficient": 4,
                     "templatecompcompound_ref": "~/compcompounds/id/cpd11620_c"
                 }
             ],
