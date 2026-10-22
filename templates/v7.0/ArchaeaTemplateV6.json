@@ -393671,13 +393671,13 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": "<",
             "base_cost": 5,
-            "direction": "=",
+            "direction": "<",
             "forward_penalty": 0,
             "id": "rxn05902_c",
             "lower_bound": -1000,
-            "maxforflux": 1000,
+            "maxforflux": 0,
             "maxrevflux": 1000.0,
             "name": "sulphite reductase",
             "reaction_ref": "kbase/default/reactions/id/rxn05902",
@@ -393711,7 +393711,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -505745,13 +505745,13 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": "<",
             "base_cost": 3.85,
-            "direction": "=",
+            "direction": "<",
             "forward_penalty": 1000,
             "id": "rxn45223_c",
             "lower_bound": -1000,
-            "maxforflux": 1000,
+            "maxforflux": 0,
             "maxrevflux": 1000.0,
             "name": "",
             "reaction_ref": "kbase/default/reactions/id/rxn45223",
@@ -505795,7 +505795,7 @@
                 "~/complexes/id/tcpx00482"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -507111,13 +507111,13 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": "<",
             "base_cost": 3.85,
-            "direction": "=",
+            "direction": "<",
             "forward_penalty": 1000,
             "id": "rxn39679_c",
             "lower_bound": -1000,
-            "maxforflux": 1000,
+            "maxforflux": 0,
             "maxrevflux": 1000.0,
             "name": "ATP-dependent ferredoxin:protochlorophyllide-a 7,8-oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn39679",
@@ -507161,7 +507161,7 @@
                 "~/complexes/id/tcpx00482"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -509800,14 +509800,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 3.85,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 1000,
             "id": "rxn14415_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "cytochrome-c oxidase (2 protons translocated)",
             "reaction_ref": "kbase/default/reactions/id/rxn14415",
             "reverse_penalty": 1000,
