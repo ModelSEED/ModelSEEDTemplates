@@ -237468,14 +237468,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 10.36042,
             "id": "rxn09566_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "pyridoxal oxidase",
             "reaction_ref": "kbase/default/reactions/id/rxn09566",
             "reverse_penalty": 0,
@@ -237508,7 +237508,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -295973,14 +295973,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "<",
+            "GapfillDirection": ">",
             "base_cost": 3,
-            "direction": "<",
+            "direction": ">",
             "forward_penalty": 0,
             "id": "rxn00206_c",
-            "lower_bound": -1000,
-            "maxforflux": 0,
-            "maxrevflux": 1000.0,
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
             "name": "superoxide:superoxide oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn00206",
             "reverse_penalty": -2.59697,
@@ -296013,7 +296013,7 @@
                 "~/complexes/id/tcpx00222"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": ">",
@@ -433078,14 +433078,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 2.3996,
             "id": "rxn00380_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "ADP:sulfate adenylyltransferase",
             "reaction_ref": "kbase/default/reactions/id/rxn00380",
             "reverse_penalty": 0,
@@ -433112,7 +433112,7 @@
                 "~/complexes/id/tcpx01150"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -474733,7 +474733,7 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 4,
             "direction": "<",
             "forward_penalty": 8.57428,
@@ -519438,12 +519438,12 @@
         {
             "GapfillDirection": "=",
             "base_cost": 3.85,
-            "direction": "<",
+            "direction": ">",
             "forward_penalty": 1000,
             "id": "rxn16828_c",
-            "lower_bound": -1000,
-            "maxforflux": 0,
-            "maxrevflux": 1000.0,
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
             "name": "R09982",
             "reaction_ref": "kbase/default/reactions/id/rxn16828",
             "reverse_penalty": 1000,
@@ -519466,7 +519466,7 @@
                 "~/complexes/id/tcpx01165"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": "=",
