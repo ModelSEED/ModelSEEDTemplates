@@ -188047,14 +188047,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 4,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 0,
             "id": "rxn00359_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "3'-phosphoadenylyl-sulfate sulfohydrolase",
             "reaction_ref": "kbase/default/reactions/id/rxn00359",
             "reverse_penalty": 1.0813,
@@ -209601,13 +209601,13 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": "<",
             "base_cost": 4,
-            "direction": "=",
+            "direction": "<",
             "forward_penalty": 4.4717,
             "id": "rxn00571_c",
             "lower_bound": -1000,
-            "maxforflux": 1000,
+            "maxforflux": 0,
             "maxrevflux": 1000.0,
             "name": "nitrite:NAD+ oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn00571",
@@ -209641,7 +209641,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -219034,14 +219034,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 4,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 0,
             "id": "rxn00444_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "L-ascorbate:hydrogen-peroxide oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn00444",
             "reverse_penalty": 6.4624,
@@ -259728,14 +259728,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 7,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 0,
             "id": "rxn09942_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "L-methionine S-oxide reductase (H2O2)",
             "reaction_ref": "kbase/default/reactions/id/rxn09942",
             "reverse_penalty": 0,
@@ -446122,14 +446122,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": "<",
             "base_cost": 2,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 2.045,
             "id": "rxn00288_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "Succinate:(acceptor) oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn00288",
             "reverse_penalty": 0,
@@ -446161,7 +446161,7 @@
                 "~/complexes/id/tcpx00246"
             ],
             "type": "conditional",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": ">",
@@ -462286,14 +462286,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 7,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 0,
             "id": "rxn10795_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "peroxynitrite formation (spontanous)",
             "reaction_ref": "kbase/default/reactions/id/rxn10795",
             "reverse_penalty": 0,
@@ -462950,14 +462950,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": ">",
+            "GapfillDirection": "<",
             "base_cost": 6,
-            "direction": ">",
+            "direction": "<",
             "forward_penalty": 10.68597,
             "id": "rxn13150_c",
-            "lower_bound": 0,
-            "maxforflux": 1000,
-            "maxrevflux": 0.0,
+            "lower_bound": -1000,
+            "maxforflux": 0,
+            "maxrevflux": 1000.0,
             "name": "5-formyltetrahydrofolate cyclo-ligase",
             "reaction_ref": "kbase/default/reactions/id/rxn13150",
             "reverse_penalty": 0,
@@ -462998,7 +462998,7 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [],
             "type": "gapfilling",
-            "upper_bound": 1000
+            "upper_bound": 0
         },
         {
             "GapfillDirection": "=",
@@ -495391,14 +495391,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 6,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 0,
             "id": "rxn00014_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "ferrocytochrome-c:hydrogen-peroxide oxidoreductase",
             "reaction_ref": "kbase/default/reactions/id/rxn00014",
             "reverse_penalty": 0,
@@ -507422,11 +507422,11 @@
         {
             "GapfillDirection": "=",
             "base_cost": 3.85,
-            "direction": "<",
+            "direction": "=",
             "forward_penalty": 1000,
             "id": "sul00002_c",
             "lower_bound": -1000,
-            "maxforflux": 0,
+            "maxforflux": 1000,
             "maxrevflux": 1000.0,
             "name": "sul00002_c",
             "reaction_ref": "kbase/default/reactions/id/sul00002",
@@ -507475,7 +507475,7 @@
                 "~/complexes/id/tcpx00523"
             ],
             "type": "conditional",
-            "upper_bound": 0
+            "upper_bound": 1000
         },
         {
             "GapfillDirection": "=",
@@ -513087,14 +513087,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 3.85,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 1000,
             "id": "rxn20627_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "protoporphyrinogen oxidase",
             "reaction_ref": "kbase/default/reactions/id/rxn20627",
             "reverse_penalty": 1000,
