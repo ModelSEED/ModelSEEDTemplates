@@ -405886,41 +405886,6 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
-            "base_cost": 7,
-            "direction": "=",
-            "forward_penalty": 0,
-            "id": "rxn10600_c",
-            "lower_bound": -1000,
-            "maxforflux": 1000,
-            "maxrevflux": 1000.0,
-            "name": "precorrin-2 cobaltochelatase",
-            "reaction_ref": "kbase/default/reactions/id/rxn10600",
-            "reverse_penalty": 0,
-            "templateReactionReagents": [
-                {
-                    "coefficient": -1,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd00149_c"
-                },
-                {
-                    "coefficient": -1,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd01620_c"
-                },
-                {
-                    "coefficient": 5,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
-                },
-                {
-                    "coefficient": 1,
-                    "templatecompcompound_ref": "~/compcompounds/id/cpd08368_c"
-                }
-            ],
-            "templatecompartment_ref": "~/compartments/id/c",
-            "templatecomplex_refs": [],
-            "type": "gapfilling",
-            "upper_bound": 1000
-        },
-        {
             "GapfillDirection": ">",
             "base_cost": 2,
             "direction": ">",
