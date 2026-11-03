@@ -1,0 +1,49 @@
+{
+ "ArchaeaTemplateV6.json": {
+  "format": "indent4",
+  "forward": [
+   "rxn00014_c",
+   "rxn05746_c",
+   "rxn08933_c",
+   "rxn08934_c",
+   "rxn08935_c",
+   "rxn08936_c",
+   "rxn23850_c"
+  ],
+  "not_forward": [],
+  "sha256": "cebc7ba396219d8f03ce07e1fd2b6932b983c49827a06e829b72a702ca40f045"
+ },
+ "Core-V6.json": {
+  "edited": [],
+  "format": "default",
+  "sha256": "22f82b02be39b40da402f3268f5589f2ea9a7ebb8b689eb684df232fd17d8f7a"
+ },
+ "GramNegModelTemplateV7.json": {
+  "format": "default",
+  "forward": [
+   "rxn00014_c",
+   "rxn05746_c",
+   "rxn08933_c",
+   "rxn08934_c",
+   "rxn08935_c",
+   "rxn08936_c",
+   "rxn23850_c"
+  ],
+  "not_forward": [],
+  "sha256": "97d7fa40fa6afd56088c43066ee6f82fa0ff73786284dbe80430e4121762788a"
+ },
+ "GramPosModelTemplateV7.json": {
+  "format": "default",
+  "forward": [
+   "rxn00014_c",
+   "rxn05746_c",
+   "rxn08933_c",
+   "rxn08934_c",
+   "rxn08935_c",
+   "rxn08936_c",
+   "rxn23850_c"
+  ],
+  "not_forward": [],
+  "sha256": "3b1b3a42c0f8aa61b10e6b00788a12126f34d327368f672b35a2a506bcf2a5b8"
+ }
+}

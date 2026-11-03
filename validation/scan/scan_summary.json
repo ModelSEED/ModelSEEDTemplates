@@ -1,0 +1,81 @@
+{
+ "by_templates": {
+  "21a8084": {
+   "at_1000_bound": 833,
+   "biomass_from_nothing": 0,
+   "drafts": 1181,
+   "errors": 0,
+   "genomes": 200,
+   "genomes_with_leak": 200,
+   "leaking": 865,
+   "leaking_by_arm": {
+    "base_constant": "200/200",
+    "base_family_donor": "111/181",
+    "base_nn1": "139/200",
+    "picrust2": "136/200",
+    "prfba_exact_tie": "141/200",
+    "truth": "138/200"
+   },
+   "leaking_by_template": {
+    "archaea": "98/142",
+    "gramneg": "387/515",
+    "grampos": "380/524"
+   },
+   "leaking_truth": 138
+  },
+  "tmpl7": {
+   "at_1000_bound": 53,
+   "biomass_from_nothing": 0,
+   "drafts": 1181,
+   "errors": 0,
+   "genomes": 200,
+   "genomes_with_leak": 35,
+   "leaking": 95,
+   "leaking_by_arm": {
+    "base_constant": "0/200",
+    "base_family_donor": "16/181",
+    "base_nn1": "24/200",
+    "picrust2": "8/200",
+    "prfba_exact_tie": "26/200",
+    "truth": "21/200"
+   },
+   "leaking_by_template": {
+    "archaea": "3/142",
+    "gramneg": "72/515",
+    "grampos": "20/524"
+   },
+   "leaking_truth": 21
+  }
+ },
+ "scan": "/home/freiburger/Documents/ModelSEEDTemplates-draftloops/validation/scan/scope_scan_tmpl7.jsonl",
+ "templates_dirs": [
+  "/home/freiburger/Documents/ModelSEEDTemplates-c12run/templates/v7.0/",
+  "/home/freiburger/Documents/ModelSEEDTemplates-draftloops/templates/v7.0/"
+ ],
+ "transitions_21a8084_to_tmpl7": {
+  "leaks_in_both": 95,
+  "leaks_in_neither": 316,
+  "starts_leaking": [],
+  "stops_leaking": 770
+ },
+ "vs_prior": {
+  "21a8084_vs_prior_scan_200": {
+   "empty_atp_differs": [],
+   "leak_differs": [],
+   "matched": 1181,
+   "n_rxn_differs": 1181,
+   "only_new": 0,
+   "only_prior": 0,
+   "prior_file": "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/egc_analysis/scope_scan_200.jsonl"
+  },
+  "tmpl7_vs_probe_ccp_gapn_mdg": {
+   "empty_atp_differs": [],
+   "leak_differs": [],
+   "matched": 1181,
+   "n_rxn_differs": 1181,
+   "only_new": 0,
+   "only_prior": 0,
+   "prior_file": "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/egc_analysis/scope_scan_variants.jsonl"
+  }
+ }
+}
