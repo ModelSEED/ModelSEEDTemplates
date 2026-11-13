@@ -1,0 +1,12 @@
+[chain] start 2026-10-29T22:12:00-05:00 on frankensteinsmonster; PYTHONPATH=/home/freiburger/Documents/ModelSEEDpy-c2e31a0
+[chain] prFBA HEAD f8205bef8a27ff265948fc1909b19f7a15b4dd6d; templates HEAD 1f8418850e54d1e3d46b8adb209305116c9c9c7a
+MemTotal:       263795660 kB
+MemAvailable:   226667128 kB
+[chain] stage a start 2026-10-29T22:12:01-05:00
+[chain] stage a exit 0 2026-10-29T22:21:31-05:00
+21a8084  leaking 865/1181 drafts, truth 138, at bound 833, errors 0
+tmpl7    leaking 95/1181 drafts, truth 21, at bound 53, errors 0
+tmpl7_vs_probe_ccp_gapn_mdg: matched 1181, leak differs 0, empty_atp differs 0, n_rxn differs 1181
+21a8084_vs_prior_scan_200: matched 1181, leak differs 0, empty_atp differs 0, n_rxn differs 1181
+[chain] stage b start 2026-10-29T22:21:31-05:00
+MemAvailable:   225374548 kB

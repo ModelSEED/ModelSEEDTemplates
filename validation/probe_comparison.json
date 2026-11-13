@@ -1,0 +1,236 @@
+{
+ "all_ok": true,
+ "base_commit": "21a808428560c1e3e11e304512d0baab6616ab78",
+ "files": {
+  "ArchaeaTemplateV6.json": {
+   "probe_sha256": "6a8e313b3b6c097e845d75c8079f5d3e43d5ed45ef98e268edbc11b320b617cf",
+   "reaction_level_equal_probe": true,
+   "sha256": "cebc7ba396219d8f03ce07e1fd2b6932b983c49827a06e829b72a702ca40f045",
+   "vs_base": {
+    "n_reactions": [
+     8600,
+     8600
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {
+     "rxn00014_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn05746_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08933_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08934_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08935_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08936_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn23850_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ]
+    },
+    "top_level_keys_differing": []
+   },
+   "vs_base_ok": true,
+   "vs_probe": {
+    "n_reactions": [
+     8600,
+     8600
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {},
+    "top_level_keys_differing": []
+   },
+   "whole_file_bytes_equal_probe": false
+  },
+  "Core-V6.json": {
+   "probe_sha256": "22f82b02be39b40da402f3268f5589f2ea9a7ebb8b689eb684df232fd17d8f7a",
+   "reaction_level_equal_probe": true,
+   "sha256": "22f82b02be39b40da402f3268f5589f2ea9a7ebb8b689eb684df232fd17d8f7a",
+   "vs_base": {
+    "n_reactions": [
+     252,
+     252
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {},
+    "top_level_keys_differing": []
+   },
+   "vs_base_ok": true,
+   "vs_probe": {
+    "n_reactions": [
+     252,
+     252
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {},
+    "top_level_keys_differing": []
+   },
+   "whole_file_bytes_equal_probe": true
+  },
+  "GramNegModelTemplateV7.json": {
+   "probe_sha256": "97d7fa40fa6afd56088c43066ee6f82fa0ff73786284dbe80430e4121762788a",
+   "reaction_level_equal_probe": true,
+   "sha256": "97d7fa40fa6afd56088c43066ee6f82fa0ff73786284dbe80430e4121762788a",
+   "vs_base": {
+    "n_reactions": [
+     8584,
+     8584
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {
+     "rxn00014_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn05746_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08933_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08934_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08935_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08936_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn23850_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ]
+    },
+    "top_level_keys_differing": []
+   },
+   "vs_base_ok": true,
+   "vs_probe": {
+    "n_reactions": [
+     8584,
+     8584
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {},
+    "top_level_keys_differing": []
+   },
+   "whole_file_bytes_equal_probe": true
+  },
+  "GramPosModelTemplateV7.json": {
+   "probe_sha256": "3b1b3a42c0f8aa61b10e6b00788a12126f34d327368f672b35a2a506bcf2a5b8",
+   "reaction_level_equal_probe": true,
+   "sha256": "3b1b3a42c0f8aa61b10e6b00788a12126f34d327368f672b35a2a506bcf2a5b8",
+   "vs_base": {
+    "n_reactions": [
+     8584,
+     8584
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {
+     "rxn00014_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn05746_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08933_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08934_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08935_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn08936_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ],
+     "rxn23850_c": [
+      "GapfillDirection",
+      "direction",
+      "lower_bound",
+      "maxrevflux"
+     ]
+    },
+    "top_level_keys_differing": []
+   },
+   "vs_base_ok": true,
+   "vs_probe": {
+    "n_reactions": [
+     8584,
+     8584
+    ],
+    "reaction_ids_equal": true,
+    "reactions_differing": {},
+    "top_level_keys_differing": []
+   },
+   "whole_file_bytes_equal_probe": true
+  }
+ },
+ "probe_dir": "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/egc_analysis/templates_scope/ccp_gapn_mdg"
+}

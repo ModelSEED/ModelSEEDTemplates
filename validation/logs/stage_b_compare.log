@@ -1,0 +1,34 @@
+{
+ "after": "/home/freiburger/Documents/ModelSEEDTemplates-draftloops/validation/gf_pass/per_genome.jsonl",
+ "before": "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/phenotype_gf_c13/per_genome.jsonl",
+ "counts": {
+  "atp_vector_changed": 0,
+  "gated_after": 0,
+  "gated_before": 0,
+  "growing_after": 2362,
+  "growing_before": 2362,
+  "n_new_rxn_changed": 1205,
+  "new_gate_failures": 0,
+  "reversal_applied_after": 111,
+  "reversal_applied_before": 114,
+  "rows": 8614,
+  "rows_gapfilled": 2362,
+  "rows_not_gapfilled": 6252,
+  "seven_in_solution_after": 0,
+  "status_ok_after": 8614,
+  "stopped_growing": 0
+ },
+ "genomes": 200,
+ "growth_ratio_after_over_before": {
+  "max": 2.7325391933503944,
+  "median": 1.0,
+  "median_abs_log": 0.0006016568845061332,
+  "min": 0.12880025361465552,
+  "n": 2362,
+  "n_moved_gt_10pct": 204
+ },
+ "matched": 8614,
+ "missing_from_after": [],
+ "n_new_rxn_delta_mean_gapfilled_rows": 0.012701100762066046,
+ "rows_after": 8614
+}

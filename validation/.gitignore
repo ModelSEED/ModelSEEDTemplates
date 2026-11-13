@@ -1,0 +1,4 @@
+# raw row files are committed gzipped (*.jsonl.gz); uncompressed sha256 in PROVENANCE.md
+gf_pass/per_genome.jsonl
+gf_pass/per_genome.oom-2254.jsonl
+scan/scope_scan_tmpl7.jsonl

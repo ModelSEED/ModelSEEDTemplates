@@ -1,0 +1,6 @@
+{
+ "atp_identical": true,
+ "gapfill_identical": true,
+ "jaccard": 1.0,
+ "pass": true
+}

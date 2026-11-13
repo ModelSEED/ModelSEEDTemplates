@@ -1,0 +1,6 @@
+[chain] start 2026-10-30T10:33:48-05:00 on frankensteinsmonster; PYTHONPATH=/home/freiburger/Documents/ModelSEEDpy-c2e31a0
+[chain] prFBA HEAD f8205bef8a27ff265948fc1909b19f7a15b4dd6d; templates HEAD 1f8418850e54d1e3d46b8adb209305116c9c9c7a
+MemTotal:       263795660 kB
+MemAvailable:   202034648 kB
+[chain] stage b start 2026-10-30T10:33:50-05:00
+MemAvailable:   202034648 kB

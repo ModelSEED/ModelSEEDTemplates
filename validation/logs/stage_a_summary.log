@@ -1,0 +1,4 @@
+21a8084  leaking 865/1181 drafts, truth 138, at bound 833, errors 0
+tmpl7    leaking 95/1181 drafts, truth 21, at bound 53, errors 0
+tmpl7_vs_probe_ccp_gapn_mdg: matched 1181, leak differs 0, empty_atp differs 0, n_rxn differs 1181
+21a8084_vs_prior_scan_200: matched 1181, leak differs 0, empty_atp differs 0, n_rxn differs 1181

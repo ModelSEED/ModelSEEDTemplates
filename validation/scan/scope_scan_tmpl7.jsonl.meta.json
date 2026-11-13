@@ -1,0 +1,58 @@
+{
+ "argv": [
+  "--cells",
+  "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/cells.csv.gz",
+  "--fold-plan",
+  "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/fold_plan.json",
+  "--panel",
+  "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/panel_eligible.json",
+  "--prfba",
+  "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/prfba",
+  "--picrust2",
+  "/home/freiburger/Documents/prFBA/region_validation/shared_reference/data/picrust2",
+  "--n-genomes",
+  "200",
+  "--expect-modelseedpy",
+  "c2e31a0",
+  "--workers",
+  "4",
+  "--templates",
+  "/home/freiburger/Documents/ModelSEEDTemplates-draftloops/templates/v7.0",
+  "--templates",
+  "/home/freiburger/Documents/ModelSEEDTemplates-c12run/templates/v7.0",
+  "--out",
+  "/home/freiburger/Documents/ModelSEEDTemplates-draftloops/validation/scan/scope_scan_tmpl7.jsonl"
+ ],
+ "libraries": {
+  "cobra": {
+   "git_commit": null,
+   "git_dirty": null,
+   "path": "/home/freiburger/Documents/py_venv/lib/python3.12/site-packages/cobra",
+   "version": "0.29.1"
+  },
+  "cobrakbase": {
+   "git_commit": "5e4eedb8363f28471ba81b984f6788308b9138ce",
+   "git_dirty": false,
+   "path": "/home/freiburger/Documents/cobrakbase/cobrakbase",
+   "version": "0.4.0"
+  },
+  "gurobipy": {
+   "git_commit": null,
+   "git_dirty": null,
+   "path": "/home/freiburger/Documents/py_venv/lib/python3.12/site-packages/gurobipy",
+   "version": "13.0.1"
+  },
+  "modelseedpy": {
+   "git_commit": "c2e31a0c775eba831a74cc89ed0774f3a3a62fe6",
+   "git_dirty": false,
+   "path": "/home/freiburger/Documents/ModelSEEDpy-c2e31a0/modelseedpy",
+   "version": "0.4.3"
+  },
+  "optlang": {
+   "git_commit": null,
+   "git_dirty": null,
+   "path": "/home/freiburger/Documents/py_venv/lib/python3.12/site-packages/optlang",
+   "version": "1.9.1"
+  }
+ }
+}
