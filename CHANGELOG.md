@@ -5,6 +5,16 @@ All notable changes to ModelSEED Templates will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+- rxn00598 (3-oxoadipyl-CoA thiolase, pcaF/paaJ, EC 2.3.1.174; acetyl-CoA + succinyl-CoA => CoA + 3-oxoadipyl-CoA)
+  is now '<' (thiolysis only) instead of '>' (condensation only) in the Archaea, GramNeg and GramPos templates
+  of v5.0, v6.0 and v7.0 (direction and GapfillDirection '<', lower_bound -1000, upper_bound 0, maxforflux 0,
+  maxrevflux 1000.0). The beta-ketoadipate and phenylacetate pathways end in the thiolytic cleavage of
+  3-oxoadipyl-CoA, which '>' forbade. The Core templates do not carry rxn00598. Applied by
+  `validation/apply_thiolase_direction.py`, which keeps each file's serialization.
+
 ## [6.0.0] - 2025-06-18
 
 ### Added
