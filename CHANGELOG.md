@@ -5,6 +5,16 @@ All notable changes to ModelSEED Templates will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- rxn42569_c, the membrane H+-translocating pyrophosphatase (H+-PPase, EC 7.1.3.1; H2O + PPi -> 2 Pi + H+[e]), with one
+  new single-role complex tcpx01431 for the role ftr05360 'Pyrophosphate-energized proton pump (EC 3.6.1.1)', in the
+  Archaea, GramNeg and GramPos templates of v5.0, v6.0 and v7.0. The role was orphan in all nine files, so a genome whose
+  only pyrophosphatase is the membrane pump got no PPi hydrolysis in its draft model. Direction '>', type 'conditional',
+  base cost and penalties as rxn00001_c. The Core templates do not carry the role. Applied by
+  `validation/apply_proton_pyrophosphatase.py`, which keeps each file's serialization.
+
 ## [6.0.0] - 2025-06-18
 
 ### Added
