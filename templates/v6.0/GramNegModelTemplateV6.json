@@ -106315,6 +106315,20 @@
             "name": "solubleCytc",
             "reference": "",
             "source": "fliu"
+        },
+        {
+            "complexroles": [
+                {
+                    "optional_role": 0,
+                    "templaterole_ref": "~/roles/id/ftr05360",
+                    "triggering": 1
+                }
+            ],
+            "confidence": 0,
+            "id": "tcpx01431",
+            "name": "tcpx01431",
+            "reference": "ModelSEED 2.0",
+            "source": "ModelSEED"
         }
     ],
     "compounds": [
@@ -520331,6 +520345,43 @@
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [
                 "~/complexes/id/tcpx00697"
+            ],
+            "type": "conditional",
+            "upper_bound": 1000
+        },
+        {
+            "GapfillDirection": ">",
+            "base_cost": 3,
+            "direction": ">",
+            "forward_penalty": 0,
+            "id": "rxn42569_c",
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
+            "name": "diphosphate phosphohydrolase (H+-translocating)",
+            "reaction_ref": "kbase/default/reactions/id/rxn42569",
+            "reverse_penalty": 0.4609,
+            "templateReactionReagents": [
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00001_c"
+                },
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00012_c"
+                },
+                {
+                    "coefficient": 2,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00009_c"
+                },
+                {
+                    "coefficient": 1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00067_e"
+                }
+            ],
+            "templatecompartment_ref": "~/compartments/id/c",
+            "templatecomplex_refs": [
+                "~/complexes/id/tcpx01431"
             ],
             "type": "conditional",
             "upper_bound": 1000
