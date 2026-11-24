@@ -5,6 +5,19 @@ All notable changes to ModelSEED Templates will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- Archaea templates of v5.0, v6.0 and v7.0: the role 'Adenylate kinase, archaeal type (EC 2.7.4.3)' (tftr01203,
+  complex tcpx01432) on rxn00097_c, and the thiol:fumarate reductase of methanogens: roles TfrA (tftr01204) and TfrB
+  (tftr01205), complex tcpx01433, new reaction rxn40405_c (fumarate + CoM + HTP -> succinate + CoM-S-S-HTP + H+, '>').
+
+### Fixed
+- The bifunctional fructose-1,6-bisphosphate aldolase/phosphatase role (FBPA/P) reached only the phosphatase
+  rxn00549_c; its complex is now also on the aldolase rxn00786_c (Archaea, GramNeg and GramPos: tcpx00462; Core:
+  tcpx00463; v5.0, v6.0 and v7.0). Applied by `validation/apply_archaeal_role_mappings.py`, which keeps each file's
+  serialization.
+
 ## [6.0.0] - 2025-06-18
 
 ### Added
