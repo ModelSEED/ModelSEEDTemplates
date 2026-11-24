@@ -5,6 +5,18 @@ All notable changes to ModelSEED Templates will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- The role tftr01203 'sodium-translocating pyrophosphatase' (the RAST function of the membrane Na+-translocating
+  pyrophosphatase, Na+-PPase, EC 7.2.3.1) and its reaction rxn54366_c (H2O + PPi + Na+[c] -> 2 Pi + H+ + Na+[e]), with one
+  new single-role complex tcpx01432, in the Archaea, GramNeg and GramPos templates of v5.0, v6.0 and v7.0. No template carried
+  the role, so a genome whose only pyrophosphatase is the Na+ pump got no PPi hydrolysis. Direction '>' (hydrolysis; the
+  database lists '='), type 'conditional', base cost and penalties as rxn00001_c.
+- A complex tcpx01433 for the orphan role ftr33579 'inorganic diphosphatase (EC 3.6.1.1)' on rxn00001_c (soluble
+  pyrophosphatase), in the same nine files. Both changes are applied by `validation/apply_sodium_pyrophosphatase.py`, which
+  keeps each file's serialization. The Core templates are not touched.
+
 ## [6.0.0] - 2025-06-18
 
 ### Added

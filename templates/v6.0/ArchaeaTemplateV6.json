@@ -106664,6 +106664,34 @@
             "name": "solubleCytc",
             "reference": "",
             "source": "fliu"
+        },
+        {
+            "complexroles": [
+                {
+                    "optional_role": 0,
+                    "templaterole_ref": "~/roles/id/tftr01203",
+                    "triggering": 1
+                }
+            ],
+            "confidence": 0,
+            "id": "tcpx01432",
+            "name": "tcpx01432",
+            "reference": "ModelSEED 2.0",
+            "source": "ModelSEED"
+        },
+        {
+            "complexroles": [
+                {
+                    "optional_role": 0,
+                    "templaterole_ref": "~/roles/id/ftr33579",
+                    "triggering": 1
+                }
+            ],
+            "confidence": 0,
+            "id": "tcpx01433",
+            "name": "tcpx01433",
+            "reference": "ModelSEED 2.0",
+            "source": "ModelSEED"
         }
     ],
     "compounds": [
@@ -209239,7 +209267,8 @@
                 "~/complexes/id/cpx01834",
                 "~/complexes/id/cpx01835",
                 "~/complexes/id/tcpx00006",
-                "~/complexes/id/tcpx00007"
+                "~/complexes/id/tcpx00007",
+                "~/complexes/id/tcpx01433"
             ],
             "type": "conditional",
             "upper_bound": 1000
@@ -521499,6 +521528,51 @@
             ],
             "type": "conditional",
             "upper_bound": 1000
+        },
+        {
+            "GapfillDirection": ">",
+            "base_cost": 3,
+            "direction": ">",
+            "forward_penalty": 0,
+            "id": "rxn54366_c",
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
+            "name": "diphosphate phosphohydrolase (Na+-translocating)",
+            "reaction_ref": "kbase/default/reactions/id/rxn54366",
+            "reverse_penalty": 0.4609,
+            "templateReactionReagents": [
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00001_c"
+                },
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00012_c"
+                },
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00971_c"
+                },
+                {
+                    "coefficient": 2,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00009_c"
+                },
+                {
+                    "coefficient": 1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
+                },
+                {
+                    "coefficient": 1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00971_e"
+                }
+            ],
+            "templatecompartment_ref": "~/compartments/id/c",
+            "templatecomplex_refs": [
+                "~/complexes/id/tcpx01432"
+            ],
+            "type": "conditional",
+            "upper_bound": 1000
         }
     ],
     "roles": [
@@ -719579,6 +719653,13 @@
             "id": "iftr00002",
             "name": "Ubiquinol-cytochrome C reductase, cytochrome C1 subunit",
             "source": ""
+        },
+        {
+            "aliases": [],
+            "features": [],
+            "id": "tftr01203",
+            "name": "sodium-translocating pyrophosphatase",
+            "source": "ModelSEED"
         }
     ],
     "subsystems": [],
