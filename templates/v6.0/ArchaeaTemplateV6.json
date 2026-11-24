@@ -518756,14 +518756,14 @@
             "upper_bound": 1000
         },
         {
-            "GapfillDirection": "=",
+            "GapfillDirection": ">",
             "base_cost": 3.85,
-            "direction": "=",
+            "direction": ">",
             "forward_penalty": 1000,
             "id": "rxn09388_c",
-            "lower_bound": -1000,
+            "lower_bound": 0,
             "maxforflux": 1000,
-            "maxrevflux": 1000.0,
+            "maxrevflux": 0.0,
             "name": "Zn2+-exporting ATPase",
             "reaction_ref": "kbase/default/reactions/id/rxn09388",
             "reverse_penalty": 1000,

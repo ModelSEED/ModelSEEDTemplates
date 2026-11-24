@@ -1,0 +1,186 @@
+{
+ "medium": "wolfe_h2co2_medium.json",
+ "template": "GramPosModelTemplateV7.json",
+ "main": "origin/main 2294299 (templates/v7.0)",
+ "drafts": "codiffusion_bioreactor models_v7/<member>.xml (MSBuilder drafts on the v7.0 templates of main)",
+ "models": {
+  "Family_XI.4": {
+   "main": {
+    "gapfill_seconds": 107.2,
+    "n_gapfilled": 187,
+    "gapfilled_zn_or_ppi": [
+     "EX_cpd00012_e0",
+     "rxn11268_c0"
+    ],
+    "growth": 4.382351,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 300.0,
+    "rxn09388": [
+     [
+      -1000.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": true,
+    "has_rxn43657": true,
+    "ppi_exchange": [
+     [
+      0,
+      100
+     ]
+    ],
+    "status": "ok"
+   },
+   "patched": {
+    "gapfill_seconds": 69.9,
+    "n_gapfilled": 220,
+    "gapfilled_zn_or_ppi": [],
+    "growth": 2.843571,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 0.0,
+    "rxn09388": [
+     [
+      0.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": true,
+    "has_rxn43657": true,
+    "ppi_exchange": [],
+    "status": "ok"
+   }
+  },
+  "midas_g_110651.1": {
+   "main": {
+    "gapfill_seconds": 99.6,
+    "n_gapfilled": 264,
+    "gapfilled_zn_or_ppi": [],
+    "growth": 1.471475,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 0.0,
+    "rxn09388": [
+     [
+      -1000.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": false,
+    "has_rxn43657": false,
+    "ppi_exchange": [],
+    "status": "ok"
+   },
+   "patched": {
+    "gapfill_seconds": 96.9,
+    "n_gapfilled": 263,
+    "gapfilled_zn_or_ppi": [],
+    "growth": 1.471325,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 0.0,
+    "rxn09388": [
+     [
+      0.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": false,
+    "has_rxn43657": false,
+    "ppi_exchange": [],
+    "status": "ok"
+   }
+  },
+  "midas_g_94288.1": {
+   "main": {
+    "gapfill_seconds": 92.5,
+    "n_gapfilled": 162,
+    "gapfilled_zn_or_ppi": [
+     "EX_cpd00012_e0",
+     "rxn11268_c0"
+    ],
+    "growth": 4.256864,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 300.0,
+    "rxn09388": [
+     [
+      -1000.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": true,
+    "has_rxn43657": true,
+    "ppi_exchange": [
+     [
+      0,
+      100
+     ]
+    ],
+    "status": "ok"
+   },
+   "patched": {
+    "gapfill_seconds": 69.6,
+    "n_gapfilled": 210,
+    "gapfilled_zn_or_ppi": [],
+    "growth": 1.70016,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 0.0,
+    "rxn09388": [
+     [
+      0.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": true,
+    "has_rxn43657": true,
+    "ppi_exchange": [],
+    "status": "ok"
+   }
+  },
+  "midas_g_98124.1": {
+   "main": {
+    "gapfill_seconds": 86.6,
+    "n_gapfilled": 171,
+    "gapfilled_zn_or_ppi": [],
+    "growth": 4.673343,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 0.0,
+    "rxn09388": [
+     [
+      -1000.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": true,
+    "has_rxn43657": true,
+    "ppi_exchange": [
+     [
+      0,
+      100
+     ]
+    ],
+    "status": "ok"
+   },
+   "patched": {
+    "gapfill_seconds": 73.2,
+    "n_gapfilled": 204,
+    "gapfilled_zn_or_ppi": [],
+    "growth": 1.395439,
+    "sealed_atp": 0.0,
+    "atp_h_pi": 0.0,
+    "rxn09388": [
+     [
+      0.0,
+      1000.0
+     ]
+    ],
+    "has_rxn05150": true,
+    "has_rxn43657": true,
+    "ppi_exchange": [
+     [
+      0,
+      100
+     ]
+    ],
+    "status": "ok"
+   }
+  }
+ }
+}

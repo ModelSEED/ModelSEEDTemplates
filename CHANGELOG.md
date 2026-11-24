@@ -5,6 +5,16 @@ All notable changes to ModelSEED Templates will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+- rxn09388_c (Zn2+-exporting P-type ATPase, ZntA family) restricted to its database direction, ATP hydrolysis with
+  Zn2+ export ('>'), in the Archaea, GramNeg and GramPos templates of v5.0, v6.0 and v7.0 (direction and
+  GapfillDirection '>', lower_bound 0, maxrevflux 0.0). Reversible, it ran as a Zn2+-gradient ATP synthase and, with
+  Zn2+:H+ symport, Na+/Pi symport, Na+/H+ antiport and a pyrophosphate exit, let gapfilled models make ATP from
+  imported phosphate alone (300 mmol ATP/gDW/h). Applied by `validation/apply_zn_atpase_direction.py`, which keeps each
+  file's serialization.
+
 ## [6.0.0] - 2025-06-18
 
 ### Added
