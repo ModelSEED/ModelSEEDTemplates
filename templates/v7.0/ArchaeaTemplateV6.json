@@ -106664,6 +106664,39 @@
             "name": "solubleCytc",
             "reference": "",
             "source": "fliu"
+        },
+        {
+            "complexroles": [
+                {
+                    "optional_role": 0,
+                    "templaterole_ref": "~/roles/id/tftr01203",
+                    "triggering": 1
+                }
+            ],
+            "confidence": 0,
+            "id": "tcpx01432",
+            "name": "tcpx01432",
+            "reference": "ModelSEED 2.0",
+            "source": "ModelSEED"
+        },
+        {
+            "complexroles": [
+                {
+                    "optional_role": 0,
+                    "templaterole_ref": "~/roles/id/tftr01204",
+                    "triggering": 1
+                },
+                {
+                    "optional_role": 0,
+                    "templaterole_ref": "~/roles/id/tftr01205",
+                    "triggering": 1
+                }
+            ],
+            "confidence": 0,
+            "id": "tcpx01433",
+            "name": "tcpx01433",
+            "reference": "ModelSEED 2.0",
+            "source": "ModelSEED"
         }
     ],
     "compounds": [
@@ -233646,7 +233679,8 @@
             ],
             "templatecompartment_ref": "~/compartments/id/c",
             "templatecomplex_refs": [
-                "~/complexes/id/cpx00811"
+                "~/complexes/id/cpx00811",
+                "~/complexes/id/tcpx01432"
             ],
             "type": "conditional",
             "upper_bound": 1000
@@ -306904,7 +306938,8 @@
                 "~/complexes/id/cpx00415",
                 "~/complexes/id/cpx00416",
                 "~/complexes/id/cpx00417",
-                "~/complexes/id/tcpx01342"
+                "~/complexes/id/tcpx01342",
+                "~/complexes/id/tcpx00462"
             ],
             "type": "conditional",
             "upper_bound": 1000
@@ -521499,6 +521534,51 @@
             ],
             "type": "conditional",
             "upper_bound": 1000
+        },
+        {
+            "GapfillDirection": ">",
+            "base_cost": 2,
+            "direction": ">",
+            "forward_penalty": 0,
+            "id": "rxn40405_c",
+            "lower_bound": 0,
+            "maxforflux": 1000,
+            "maxrevflux": 0.0,
+            "name": "fumarate CoM:CoB oxidoreductase (succinate forming)",
+            "reaction_ref": "kbase/default/reactions/id/rxn40405",
+            "reverse_penalty": 0,
+            "templateReactionReagents": [
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00106_c"
+                },
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd02246_c"
+                },
+                {
+                    "coefficient": -1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd02817_c"
+                },
+                {
+                    "coefficient": 1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00036_c"
+                },
+                {
+                    "coefficient": 1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd02935_c"
+                },
+                {
+                    "coefficient": 1,
+                    "templatecompcompound_ref": "~/compcompounds/id/cpd00067_c"
+                }
+            ],
+            "templatecompartment_ref": "~/compartments/id/c",
+            "templatecomplex_refs": [
+                "~/complexes/id/tcpx01433"
+            ],
+            "type": "conditional",
+            "upper_bound": 1000
         }
     ],
     "roles": [
@@ -719579,6 +719659,27 @@
             "id": "iftr00002",
             "name": "Ubiquinol-cytochrome C reductase, cytochrome C1 subunit",
             "source": ""
+        },
+        {
+            "aliases": [],
+            "features": [],
+            "id": "tftr01203",
+            "name": "Adenylate kinase, archaeal type (EC 2.7.4.3)",
+            "source": "ModelSEED"
+        },
+        {
+            "aliases": [],
+            "features": [],
+            "id": "tftr01204",
+            "name": "Fumarate reductase (CoM/CoB), subunit TfrA (EC 1.3.4.1)",
+            "source": "ModelSEED"
+        },
+        {
+            "aliases": [],
+            "features": [],
+            "id": "tftr01205",
+            "name": "Fumarate reductase (CoM/CoB), subunit TfrB (EC 1.3.4.1)",
+            "source": "ModelSEED"
         }
     ],
     "subsystems": [],
